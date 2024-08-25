@@ -6,12 +6,12 @@ import {useState} from 'react'
 const Tarjetas = ({ productos }) => {
   return (
     <div>
-      <div class="card">
+      <div className="card">
         <h4>{productos.id}</h4>
-        <img src={productos.img} class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">{productos.name}</h5>
-          <p class="card-text">{productos.desc}</p>
+        <img src={productos.img} className=" call card-img-top" alt="..." width="200" />
+        <div className="card-body">
+          <h5 className="card-title">{productos.name}</h5>
+          <p className="card-text">{productos.desc}</p>
 
           <li className="ing">Ingredientes : {productos.ingredients}</li>
           <h5>Precio ${productos.price}</h5>
@@ -19,10 +19,10 @@ const Tarjetas = ({ productos }) => {
             Comprar
           </a> */}
           <div className="">
-          <button href="#" class="btn btn-success" onClick={()=>agregar(productos)}>
+          <button href="#" className="btn btn-success" onClick={()=>agregar(productos)}>
             Añadir
           </button>
-          <button href="#" class="btn btn-danger"onClick={()=>quitar(productos)}>
+          <button href="#" className="btn btn-danger"onClick={()=>quitar(productos)}>
             Quitar
           </button>
           </div>
