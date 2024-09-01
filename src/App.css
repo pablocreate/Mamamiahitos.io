@@ -114,3 +114,14 @@
   margin: auto;
   
 }
+
+.not{
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  border-top: 18px;
+  padding-top: 40px;
+  border-radius: 10px;
+  background:;
+
+}

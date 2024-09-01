@@ -11,6 +11,7 @@ import { Routes , Route } from "react-router-dom";
 import Logins from "./componentes/nuevos/Logins";
 import Registros from "./componentes/nuevos/Registros";
 import NotFound from "./componentes/nuevos/NotFound";
+import Inicio from "./componentes/logins/Inicio";
 
 
 
@@ -30,7 +31,7 @@ function App() {
       <Navegador />
       <Header/>
       <Routes>
-        <Route path="/Header" element={<Header/>}/>
+        <Route path="/Inicio" element={<Inicio/>}/>
         <Route path="/Grilla" element={<Grilla productos={productos} />}/>
         <Route path="/Carrito" element={<Carrito productos={productos} />}/>
         <Route path="/Detalle" element={<Detalle/>}/>

@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Header from "../Header";
 
 const Navegador = () => {
   return (
+    <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
@@ -23,7 +25,7 @@ const Navegador = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav container text-center ">
           <li className="nav-item col-2">
-              <Link className="nav-item" to="/">
+              <Link className="nav-item" to="/Inicio">
                 <button>🏠Home</button>
               </Link>
             </li>
@@ -57,7 +59,11 @@ const Navegador = () => {
         </div>
       </div>
     </nav>
+    </>
   );
 };
+
+
+
 
 export default Navegador;
