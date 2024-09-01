@@ -41,64 +41,57 @@
   color: #888;
 }
 
-.header{
-  background-image:url(./componentes/assets/img/homepizza.jpg);
+.header {
+  background-image: url(./componentes/assets/img/homepizza.jpg);
   padding: 5px;
   height: 200px;
   color: white;
   padding-top: 50px;
   gap: 20px;
-  
 }
 
-.footer{
+.footer {
   height: 40px;
   padding-top: 10px;
   background-color: rgb(50, 49, 49);
-  color:white;
+  color: white;
 }
 
-.image1{
- 
+.image1 {
   background-image: url(./componentes/pizzas/espanish.jpg);
   height: 150px;
   padding-top: 20px;
   border-radius: 10px;
-
 }
 
-.image2{
- 
+.image2 {
   background-image: url(./componentes/pizzas/napoli.jpg);
   height: 150px;
   padding-top: 20px;
   border-radius: 10px;
-
 }
 
-.image3{
- 
+.image3 {
   background-image: url(./componentes/pizzas/pepe.jpg);
   height: 150px;
   padding-top: 20px;
   border-radius: 10px;
-
 }
 
-.boton{
+.boton {
   width: 30px;
 }
 
-.row{
+.row {
   padding: 20px;
   padding-top: 20px;
 }
 
-.col-md-4{
+.col-md-4 {
   padding-bottom: 20px;
 }
 
-.ing{
+.ing {
   padding-top: 5px;
   padding-bottom: 10px;
   height: 55px;
@@ -107,21 +100,18 @@
   color: rgb(255, 255, 255);
 }
 
-.dolly{
+.dolly {
   width: 200px;
   border: 1px solid black;
   padding: 10px;
   margin: auto;
-  
 }
 
-.not{
+.not {
   margin: auto;
   width: 500px;
   height: 500px;
   border-top: 18px;
   padding-top: 40px;
   border-radius: 10px;
-
-
 }
