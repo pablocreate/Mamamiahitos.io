@@ -15,7 +15,7 @@ export function Home ({user ,setUser}){
             <br />
             <h2 className="texto">Pizzeria Mamma mia</h2>
             <button onClick={handleLogout}>Cerrar sesion</button>
-            <Grilla productos={productos} />
+        
         </div>
 
         </>
