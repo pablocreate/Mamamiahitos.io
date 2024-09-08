@@ -7,13 +7,11 @@ import Carrito from "./Carrito";
 import Detalle from "./componentes/Detalle";
 import { useEffect, useState } from "react";
 import { BrowserRouter } from "react-router-dom";
-import { Routes , Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Logins from "./componentes/nuevos/Logins";
 import Registros from "./componentes/nuevos/Registros";
 import NotFound from "./componentes/nuevos/NotFound";
 import Inicio from "./componentes/logins/Inicio";
-
-
 
 function App() {
   const [productos, setProductos] = useState([]);
@@ -29,27 +27,18 @@ function App() {
   return (
     <>
       <Navegador />
-      <Header/>
+      <Header />
       <Routes>
-        <Route path="/Inicio" element={<Inicio/>}/>
-        <Route path="/Grilla" element={<Grilla productos={productos} />}/>
-        <Route path="/Carrito" element={<Carrito productos={productos} />}/>
-        <Route path="/Detalle" element={<Detalle/>}/>
-        <Route path="/Logins" element={<Logins/>}/>
-        <Route path="/Registros" element={<Registros/>}/>
+        <Route path="/Inicio" element={<Inicio />} />
+        <Route path="/Grilla" element={<Grilla productos={productos} />} />
+        <Route path="/Carrito" element={<Carrito productos={productos} />} />
+        <Route path="/Detalle" element={<Detalle />} />
+        <Route path="/Logins" element={<Logins />} />
+        <Route path="/Registros" element={<Registros />} />
         <Route path="*" element={<NotFound />} />
-       
       </Routes>
 
-    
-      
-     
       <Footer />
- 
-     
-     
-
-      
     </>
   );
 }
