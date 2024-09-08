@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Napolitana",
+    "price": 10,
+    "imgUrl": "./images/pizza01.png"
+  },
+  {
+    "id": 2,
+    "name": "Margarita",
+    "price": 800,
+    "imgUrl": "./images/pizza02.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pepperoni",
+    "price": 400,
+    "imgUrl": "./images/pizza03.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Extra Queso",
+    "price": 550,
+    "imgUrl": "./images/pizza04.jpg"
+  }
+]
